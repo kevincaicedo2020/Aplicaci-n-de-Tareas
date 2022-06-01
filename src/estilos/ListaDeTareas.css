@@ -1,0 +1,16 @@
+.tareas-lista-contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+@media(max-width: 500px){
+    .tareas-lista-principal{
+    width: 271px;
+    padding: 10px;
+    }
+    .tareas-lista-principal h1{
+        font-size: 20px;
+    }
+}
